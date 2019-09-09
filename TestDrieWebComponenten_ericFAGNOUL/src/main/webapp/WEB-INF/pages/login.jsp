@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Hallo HB05 Java !!</title>
+    <title>Hallo HB05 Java!!</title>
 </head>
 <body>
 <h1>Hello Guest${message} </h1>

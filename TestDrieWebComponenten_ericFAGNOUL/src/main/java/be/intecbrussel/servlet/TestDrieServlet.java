@@ -16,7 +16,7 @@ public class TestDrieServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        LocalTime sessionStartTime;
+
         HttpSession session = req.getSession ( );
         if (session.isNew ( )) {
 

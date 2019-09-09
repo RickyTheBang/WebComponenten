@@ -18,9 +18,6 @@ public class LogOutServlet extends HttpServlet {
         if (!session.isNew ( )) {
             session.invalidate ( );
             resp.sendRedirect ("testdrie");
-            return;
-
-
         }
 
     }
