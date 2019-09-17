@@ -12,6 +12,7 @@
 </head>
 <body>
 <h1>Welcome ${sessionName}</h1>
+<%--sessionstarttime?--%>
 ${sessionStartTime}
 <form action='logOut' method='GET'>
     <input type='submit' value='Log out'><br/>
